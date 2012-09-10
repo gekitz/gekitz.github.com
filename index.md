@@ -16,7 +16,7 @@ tagline:
         {% if forloop.first %}
            <span class="content_detail_info">can be found in </span>
         {% endif %}
-        <a class="content_tag">#{{ tag }}</a>
+        <a class="content_tag" href="tags.html">#{{ tag }}</a>
       {% endfor %}
     </div>  
     </br>

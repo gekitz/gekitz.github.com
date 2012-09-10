@@ -39,7 +39,7 @@ html, body {
 
 /* tag_box ======================================================== */
 
-.tag_box {
+/* .tag_box {
 	list-style:none;
 	margin:0;
 	padding:5px 0 ;
@@ -67,5 +67,131 @@ html, body {
 	background:#57A957;
 	border:1px solid #4C964D;
 	color:#FFF;
+} */
+
+/* my own content */
+
+strong {
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #fbfbae;
+	font-weight: normal;		
 }
-	
+
+.content_head{
+	color: black;
+}
+
+.content_head:hover{
+	color: black;
+	text-decoration: underline;
+}
+
+.content_head:visited{
+	color: black;
+}
+
+.content_detail_info{
+	color: #9C9C9C;
+}
+
+.content_body a {
+	color: #6493FC;
+}
+
+.post p{	
+	color: black;	
+	   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
+li {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	font-size: 1.2em;
+	line-height: 1.5em;	
+}
+
+.content_tag {
+	color: #9C9C9C;
+}
+
+.content_tag:hover{
+	color: #9C9C9C;
+	cursor:pointer;
+}
+
+.content_tag:visited{
+	color: #9C9C9C;
+}
+
+.introduction p{
+	line-height: normal;
+	color: black;
+	font-size: 1.2em;
+}
+
+.introduction a {
+	color: black;
+}
+
+.prev li{
+	background-color: green;
+}
+
+.prevdisabled {
+	background-color: green;
+}
+
+.pagecontrol li{
+	list-style-type: none;
+}
+
+.prev a{
+	float: left;
+}
+
+.prev_disabled a{
+	float:left;
+	color: grey;
+}
+
+.prev_disabled a:hover{
+	text-decoration: none;
+}
+
+.next a{
+	float: right;
+}
+
+.next_disabled a{
+	float: right;
+	color: grey;
+}
+
+.next_disabled a:hover{
+	text-decoration: none;
+}
+
+
+.bio a,
+.bio a:hover,
+.bio a:visited
+{
+	color: #6493FC;
+}
+
+.bio p{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	font-size: 1.2em;
+	line-height: 1.5em;	
+}

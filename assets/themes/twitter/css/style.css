@@ -195,3 +195,12 @@ li {
 	font-size: 1.2em;
 	line-height: 1.5em;	
 }
+
+.tag{
+	margin-bottom: 20px;
+}
+
+.tag_entry{
+	margin-left: 20px;
+	margin-bottom: 20px;
+}

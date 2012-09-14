@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<div class="page-header">
+  	<div class="introduction">
+    	<h1>
+    		<a href="/"> Georg Kitz</a>
+    	</h1>    
+  	</div>
+	</br>
+  	<div class="bio">
+  		<p>
+  			<a href="/about.html">I'm</a> a software engineer, with a strong focus on 
+    		<a href="http://developer.apple.com/ios">iOS</a>.</br> <a href="/about.html">I'm</a> the guy behind <a href="http://jiffy-app.com">Jiffy</a> and <a href="http://iradio-app.com">iRadio</a>, as well as the co-founder of <a href="http://spartanapp.com">Spartan</a>.
+    	</p>
+  	</div>
+</div>
+
+<h2 class="tag">{{ page.title }}</h2>
+{% for post in site.tags[page.tag] %}
+<div class="tag_entry">
+	<h3>
+		<a class="content_head" href="{{ post.url }}">{{ post.title }}</a>
+	</h3>
+	<div>
+		<span class="content_detail_info">Post created on {{ post.date | date_to_string }}</span>
+		{% for tag in post.tags %} 
+		{% if forloop.first %}
+		<span class="content_detail_info">can be found in </span>
+		{% endif %}
+		{% if forloop.last and forloop.length != 1%}
+		<span class="content_detail_info">and</span>
+		{% endif %}
+		<a class="content_tag" href="{{ BASE_PATH }}/tags/{{tag}}">#{{ tag }}</a>
+		{% endfor %}
+	</div>  
+</div>
+{% endfor %}

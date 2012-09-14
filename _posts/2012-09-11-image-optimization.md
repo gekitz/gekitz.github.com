@@ -37,6 +37,3 @@ The following posts are a really good guide for this topic:
 - [Tweetbot on ImageOptim](http://imageoptim.com/tweetbot.html)
 - [IncrediBooth Optimization](http://samsoff.es/posts/image-optimization-on-ios)
 
-<br>
-<br>
-<br>

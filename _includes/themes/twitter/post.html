@@ -22,14 +22,14 @@
     </h2>
     <div>
       <span class="content_detail_info">Post created on {{ page.date | date_to_string }}</span>
-      {% for cat in page.categories %} 
+      {% for tag in page.tags %} 
         {% if forloop.first %}
            <span class="content_detail_info">can be found in </span>
         {% endif %}
                 {% if forloop.last and forloop.length != 1%}
           <span class="content_detail_info">and</span>
         {% endif %}
-        <a class="content_tag" href="{{ BASE_PATH }}/categories/{{cat}}">#{{ cat }}</a>
+        <a class="content_tag" href="{{ BASE_PATH }}/categories/{{tag}}">#{{ tag }}</a>
       {% endfor %}
     </div>  
     </br>

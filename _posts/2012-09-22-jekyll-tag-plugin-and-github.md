@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jekyll Tag Plugin and Github"
+title: "Jekyll Tag Plugin and Github Pages"
 description: ""
 category: 
 tags: [jekyll, tags, plugin, github]

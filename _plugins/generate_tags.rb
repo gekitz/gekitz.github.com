@@ -22,7 +22,8 @@ module Jekyll
     def generate(site)
 
       site.tags.each do |tag|
-        site.pages << TagPage.new(site, site.source, File.join('tags', tag[0]), tag[0])
+        #usually you would use tags/ as desitination directory and not ../tags
+        site.pages << TagPage.new(site, site.source, File.join('../tags', tag[0]), tag[0])
       end
     end
   end

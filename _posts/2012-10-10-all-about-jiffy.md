@@ -11,7 +11,7 @@ Hey ya, I finally managed to launch my new iPhone and iPad app [Jiffy](http://ji
 
 Well the idea behind Jiffy came to my mind during this years [WWDC](http://apple.com/wwdc). I talked to a lot of people there and it was a little bit tricky to remember all the new people you met and it was a little bit annoying that **all** those business cards made my pocket **exploding**... 
 
-That's where Jiffy was born, at least the idea. I talked to [Bastian Koell](http://twitter.com/bkoell) and [Richard Marktl](http://twitter.com/richmarktl) who both thought it might be worth having an app which covers this use case, at least when you are traveling to different conferences during the year.
+Jiffy was born, at least the idea. I talked to [Bastian Koell](http://twitter.com/bkoell) and [Richard Marktl](http://twitter.com/richmarktl) who both thought it might be worth having an app which covers this use case, at least when you are traveling to different conferences during the year.
 
 The first line of code was written **during WWDC** while Richard was working on an special animation of [Languages](http://languagesapp.com). 
 
